@@ -1,7 +1,4 @@
 apiRules:
 - include:
-    uidRegex: ^pbuddy.CodeGenerationUtility.EditorScripts
-    type: Namespace
-- exclude:
     uidRegex: .*
     type: Namespace
