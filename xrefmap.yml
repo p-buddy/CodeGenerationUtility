@@ -1,6 +1,57 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: pbuddy.CodeGenerationUtility.EditModeTests
+  name: pbuddy.CodeGenerationUtility.EditModeTests
+  href: api/pbuddy.CodeGenerationUtility.EditModeTests.html
+  commentId: N:pbuddy.CodeGenerationUtility.EditModeTests
+  fullName: pbuddy.CodeGenerationUtility.EditModeTests
+  nameWithType: pbuddy.CodeGenerationUtility.EditModeTests
+- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests
+  name: CodeGenerationHelperTests
+  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html
+  commentId: T:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests
+  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests
+  nameWithType: CodeGenerationHelperTests
+- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetLinesArrayTest
+  name: GetLinesArrayTest()
+  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_GetLinesArrayTest
+  commentId: M:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetLinesArrayTest
+  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetLinesArrayTest()
+  nameWithType: CodeGenerationHelperTests.GetLinesArrayTest()
+- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetLinesArrayTest*
+  name: GetLinesArrayTest
+  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_GetLinesArrayTest_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetLinesArrayTest
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetLinesArrayTest
+  nameWithType: CodeGenerationHelperTests.GetLinesArrayTest
+- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionExcludingGuardsTest
+  name: GetSectionExcludingGuardsTest()
+  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_GetSectionExcludingGuardsTest
+  commentId: M:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionExcludingGuardsTest
+  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionExcludingGuardsTest()
+  nameWithType: CodeGenerationHelperTests.GetSectionExcludingGuardsTest()
+- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionExcludingGuardsTest*
+  name: GetSectionExcludingGuardsTest
+  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_GetSectionExcludingGuardsTest_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionExcludingGuardsTest
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionExcludingGuardsTest
+  nameWithType: CodeGenerationHelperTests.GetSectionExcludingGuardsTest
+- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionIncludingGuardsTest
+  name: GetSectionIncludingGuardsTest()
+  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_GetSectionIncludingGuardsTest
+  commentId: M:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionIncludingGuardsTest
+  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionIncludingGuardsTest()
+  nameWithType: CodeGenerationHelperTests.GetSectionIncludingGuardsTest()
+- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionIncludingGuardsTest*
+  name: GetSectionIncludingGuardsTest
+  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_GetSectionIncludingGuardsTest_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionIncludingGuardsTest
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetSectionIncludingGuardsTest
+  nameWithType: CodeGenerationHelperTests.GetSectionIncludingGuardsTest
 - uid: pbuddy.CodeGenerationUtility.EditorScripts
   name: pbuddy.CodeGenerationUtility.EditorScripts
   href: api/pbuddy.CodeGenerationUtility.EditorScripts.html
@@ -58,6 +109,19 @@ references:
   isSpec: "True"
   fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLeadingWhitespace
   nameWithType: CodeGenerationHelper.GetLeadingWhitespace
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLinesArrayFromTemplate(System.String)
+  name: GetLinesArrayFromTemplate(String)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetLinesArrayFromTemplate_System_String_
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLinesArrayFromTemplate(System.String)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLinesArrayFromTemplate(System.String)
+  nameWithType: CodeGenerationHelper.GetLinesArrayFromTemplate(String)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLinesArrayFromTemplate*
+  name: GetLinesArrayFromTemplate
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetLinesArrayFromTemplate_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLinesArrayFromTemplate
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLinesArrayFromTemplate
+  nameWithType: CodeGenerationHelper.GetLinesArrayFromTemplate
 - uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.Boolean)
   name: GetSection(List<String>, in SectionIdentifiers, Boolean)
   href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetSection_System_Collections_Generic_List_System_String__pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__System_Boolean_
@@ -74,19 +138,6 @@ references:
   isSpec: "True"
   fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection
   nameWithType: CodeGenerationHelper.GetSection
-- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate(System.String)
-  name: GetStringArrayFromTemplate(String)
-  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetStringArrayFromTemplate_System_String_
-  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate(System.String)
-  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate(System.String)
-  nameWithType: CodeGenerationHelper.GetStringArrayFromTemplate(String)
-- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate*
-  name: GetStringArrayFromTemplate
-  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetStringArrayFromTemplate_
-  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate
-  isSpec: "True"
-  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate
-  nameWithType: CodeGenerationHelper.GetStringArrayFromTemplate
 - uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveMultipleEmptyLines(System.Collections.Generic.List{System.String})
   name: RemoveMultipleEmptyLines(List<String>)
   href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_RemoveMultipleEmptyLines_System_Collections_Generic_List_System_String__
