@@ -2,11 +2,11 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://p-buddy.github.io/docs/CodeGenerationUtility/",
+        "baseUrl": "https://p-buddy.github.io/CodeGenerationUtility/",
         "changefreq": "daily"
       }
     },
-    "baseUrl": "https://p-buddy.github.io/docs/CodeGenerationUtility/",
+    "baseUrl": "https://p-buddy.github.io/CodeGenerationUtility/",
     "changefreq": "weekly"
   },
   "homepages": [],
