@@ -1,0 +1,14 @@
+{
+    "name": "pbuddy.CodeGenerationUtility.EditorScripts",
+    "rootNamespace": "pbuddy.CodeGenerationUtility.EditorScripts",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
