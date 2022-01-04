@@ -1,0 +1,159 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://p-buddy.github.io/docs/CodeGenerationUtility/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://p-buddy.github.io/docs/CodeGenerationUtility/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/a/CodeGenerationUtility/CodeGenerationUtility/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html",
+          "hash": "VJMhp4/RVGivmlkdxlD1C++PSRVT53+UYq1D0kOGfXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html",
+          "hash": "SxqZFeO+y8z7Fkw01LCHRU73rEjrfn0KKJl2UIuNm8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html",
+          "hash": "VWjVNnJyoQlc0bGjoY7ot3gapof5B6QJ4664z4iL1r0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.html",
+          "hash": "gPbqPHNj28ndYlXWdD/qPbISE5h/z49U7aiiff1XUlM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "etlYsGfUzJAizYurk6FU1eSUN++ReT9UcoAPiku+3sE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Jht+YzClBUp1VCSHxcEPHHxTpkexO7B2zqGyXpnYurg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "LfK8YfZPALZhh2lux+JIUtV6L47LJXtzULS/CLRiPUY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

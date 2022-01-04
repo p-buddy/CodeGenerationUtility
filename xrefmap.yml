@@ -1,0 +1,272 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: pbuddy.CodeGenerationUtility.EditorScripts
+  name: pbuddy.CodeGenerationUtility.EditorScripts
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.html
+  commentId: N:pbuddy.CodeGenerationUtility.EditorScripts
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts
+  nameWithType: pbuddy.CodeGenerationUtility.EditorScripts
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper
+  name: CodeGenerationHelper
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html
+  commentId: T:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper
+  nameWithType: CodeGenerationHelper
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToBeginningOfSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.String[])
+  name: AddToBeginningOfSection(List<String>, in SectionIdentifiers, String[])
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_AddToBeginningOfSection_System_Collections_Generic_List_System_String__pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__System_String___
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToBeginningOfSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.String[])
+  name.vb: AddToBeginningOfSection(List(Of String), ByRef SectionIdentifiers, String())
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToBeginningOfSection(System.Collections.Generic.List<System.String>, in pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers, System.String[])
+  fullName.vb: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToBeginningOfSection(System.Collections.Generic.List(Of System.String), ByRef pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers, System.String())
+  nameWithType: CodeGenerationHelper.AddToBeginningOfSection(List<String>, in SectionIdentifiers, String[])
+  nameWithType.vb: CodeGenerationHelper.AddToBeginningOfSection(List(Of String), ByRef SectionIdentifiers, String())
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToBeginningOfSection*
+  name: AddToBeginningOfSection
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_AddToBeginningOfSection_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToBeginningOfSection
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToBeginningOfSection
+  nameWithType: CodeGenerationHelper.AddToBeginningOfSection
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToEndOfSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.String[])
+  name: AddToEndOfSection(List<String>, in SectionIdentifiers, String[])
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_AddToEndOfSection_System_Collections_Generic_List_System_String__pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__System_String___
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToEndOfSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.String[])
+  name.vb: AddToEndOfSection(List(Of String), ByRef SectionIdentifiers, String())
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToEndOfSection(System.Collections.Generic.List<System.String>, in pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers, System.String[])
+  fullName.vb: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToEndOfSection(System.Collections.Generic.List(Of System.String), ByRef pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers, System.String())
+  nameWithType: CodeGenerationHelper.AddToEndOfSection(List<String>, in SectionIdentifiers, String[])
+  nameWithType.vb: CodeGenerationHelper.AddToEndOfSection(List(Of String), ByRef SectionIdentifiers, String())
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToEndOfSection*
+  name: AddToEndOfSection
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_AddToEndOfSection_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToEndOfSection
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.AddToEndOfSection
+  nameWithType: CodeGenerationHelper.AddToEndOfSection
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLeadingWhitespace(System.String)
+  name: GetLeadingWhitespace(String)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetLeadingWhitespace_System_String_
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLeadingWhitespace(System.String)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLeadingWhitespace(System.String)
+  nameWithType: CodeGenerationHelper.GetLeadingWhitespace(String)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLeadingWhitespace*
+  name: GetLeadingWhitespace
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetLeadingWhitespace_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLeadingWhitespace
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetLeadingWhitespace
+  nameWithType: CodeGenerationHelper.GetLeadingWhitespace
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.Boolean)
+  name: GetSection(List<String>, in SectionIdentifiers, Boolean)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetSection_System_Collections_Generic_List_System_String__pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__System_Boolean_
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.Boolean)
+  name.vb: GetSection(List(Of String), ByRef SectionIdentifiers, Boolean)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection(System.Collections.Generic.List<System.String>, in pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers, System.Boolean)
+  fullName.vb: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection(System.Collections.Generic.List(Of System.String), ByRef pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers, System.Boolean)
+  nameWithType: CodeGenerationHelper.GetSection(List<String>, in SectionIdentifiers, Boolean)
+  nameWithType.vb: CodeGenerationHelper.GetSection(List(Of String), ByRef SectionIdentifiers, Boolean)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection*
+  name: GetSection
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetSection_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetSection
+  nameWithType: CodeGenerationHelper.GetSection
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate(System.String)
+  name: GetStringArrayFromTemplate(String)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetStringArrayFromTemplate_System_String_
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate(System.String)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate(System.String)
+  nameWithType: CodeGenerationHelper.GetStringArrayFromTemplate(String)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate*
+  name: GetStringArrayFromTemplate
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_GetStringArrayFromTemplate_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.GetStringArrayFromTemplate
+  nameWithType: CodeGenerationHelper.GetStringArrayFromTemplate
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveMultipleEmptyLines(System.Collections.Generic.List{System.String})
+  name: RemoveMultipleEmptyLines(List<String>)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_RemoveMultipleEmptyLines_System_Collections_Generic_List_System_String__
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveMultipleEmptyLines(System.Collections.Generic.List{System.String})
+  name.vb: RemoveMultipleEmptyLines(List(Of String))
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveMultipleEmptyLines(System.Collections.Generic.List<System.String>)
+  fullName.vb: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveMultipleEmptyLines(System.Collections.Generic.List(Of System.String))
+  nameWithType: CodeGenerationHelper.RemoveMultipleEmptyLines(List<String>)
+  nameWithType.vb: CodeGenerationHelper.RemoveMultipleEmptyLines(List(Of String))
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveMultipleEmptyLines*
+  name: RemoveMultipleEmptyLines
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_RemoveMultipleEmptyLines_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveMultipleEmptyLines
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveMultipleEmptyLines
+  nameWithType: CodeGenerationHelper.RemoveMultipleEmptyLines
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@)
+  name: RemoveSection(List<String>, in SectionIdentifiers)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_RemoveSection_System_Collections_Generic_List_System_String__pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSection(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@)
+  name.vb: RemoveSection(List(Of String), ByRef SectionIdentifiers)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSection(System.Collections.Generic.List<System.String>, in pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers)
+  fullName.vb: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSection(System.Collections.Generic.List(Of System.String), ByRef pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers)
+  nameWithType: CodeGenerationHelper.RemoveSection(List<String>, in SectionIdentifiers)
+  nameWithType.vb: CodeGenerationHelper.RemoveSection(List(Of String), ByRef SectionIdentifiers)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSection*
+  name: RemoveSection
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_RemoveSection_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSection
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSection
+  nameWithType: CodeGenerationHelper.RemoveSection
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSectionIdentifiers(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@)
+  name: RemoveSectionIdentifiers(List<String>, in SectionIdentifiers)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_RemoveSectionIdentifiers_System_Collections_Generic_List_System_String__pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSectionIdentifiers(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@)
+  name.vb: RemoveSectionIdentifiers(List(Of String), ByRef SectionIdentifiers)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSectionIdentifiers(System.Collections.Generic.List<System.String>, in pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers)
+  fullName.vb: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSectionIdentifiers(System.Collections.Generic.List(Of System.String), ByRef pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers)
+  nameWithType: CodeGenerationHelper.RemoveSectionIdentifiers(List<String>, in SectionIdentifiers)
+  nameWithType.vb: CodeGenerationHelper.RemoveSectionIdentifiers(List(Of String), ByRef SectionIdentifiers)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSectionIdentifiers*
+  name: RemoveSectionIdentifiers
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_RemoveSectionIdentifiers_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSectionIdentifiers
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.RemoveSectionIdentifiers
+  nameWithType: CodeGenerationHelper.RemoveSectionIdentifiers
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceSectionIdentifiers(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.String)
+  name: ReplaceSectionIdentifiers(List<String>, in SectionIdentifiers, String)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_ReplaceSectionIdentifiers_System_Collections_Generic_List_System_String__pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__System_String_
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceSectionIdentifiers(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers@,System.String)
+  name.vb: ReplaceSectionIdentifiers(List(Of String), ByRef SectionIdentifiers, String)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceSectionIdentifiers(System.Collections.Generic.List<System.String>, in pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers, System.String)
+  fullName.vb: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceSectionIdentifiers(System.Collections.Generic.List(Of System.String), ByRef pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers, System.String)
+  nameWithType: CodeGenerationHelper.ReplaceSectionIdentifiers(List<String>, in SectionIdentifiers, String)
+  nameWithType.vb: CodeGenerationHelper.ReplaceSectionIdentifiers(List(Of String), ByRef SectionIdentifiers, String)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceSectionIdentifiers*
+  name: ReplaceSectionIdentifiers
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_ReplaceSectionIdentifiers_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceSectionIdentifiers
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceSectionIdentifiers
+  nameWithType: CodeGenerationHelper.ReplaceSectionIdentifiers
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceTemplates(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace[])
+  name: ReplaceTemplates(List<String>, TemplateToReplace[])
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_ReplaceTemplates_System_Collections_Generic_List_System_String__pbuddy_CodeGenerationUtility_EditorScripts_TemplateToReplace___
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceTemplates(System.Collections.Generic.List{System.String},pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace[])
+  name.vb: ReplaceTemplates(List(Of String), TemplateToReplace())
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceTemplates(System.Collections.Generic.List<System.String>, pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace[])
+  fullName.vb: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceTemplates(System.Collections.Generic.List(Of System.String), pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace())
+  nameWithType: CodeGenerationHelper.ReplaceTemplates(List<String>, TemplateToReplace[])
+  nameWithType.vb: CodeGenerationHelper.ReplaceTemplates(List(Of String), TemplateToReplace())
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceTemplates*
+  name: ReplaceTemplates
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html#pbuddy_CodeGenerationUtility_EditorScripts_CodeGenerationHelper_ReplaceTemplates_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceTemplates
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.ReplaceTemplates
+  nameWithType: CodeGenerationHelper.ReplaceTemplates
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers
+  name: SectionIdentifiers
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html
+  commentId: T:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers
+  nameWithType: SectionIdentifiers
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.#ctor(System.String,System.String)
+  name: SectionIdentifiers(String, String)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html#pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__ctor_System_String_System_String_
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.#ctor(System.String,System.String)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionIdentifiers(System.String, System.String)
+  nameWithType: SectionIdentifiers.SectionIdentifiers(String, String)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.#ctor*
+  name: SectionIdentifiers
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html#pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers__ctor_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.#ctor
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionIdentifiers
+  nameWithType: SectionIdentifiers.SectionIdentifiers
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionClose
+  name: SectionClose
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html#pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers_SectionClose
+  commentId: P:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionClose
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionClose
+  nameWithType: SectionIdentifiers.SectionClose
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionClose*
+  name: SectionClose
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html#pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers_SectionClose_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionClose
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionClose
+  nameWithType: SectionIdentifiers.SectionClose
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionOpen
+  name: SectionOpen
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html#pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers_SectionOpen
+  commentId: P:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionOpen
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionOpen
+  nameWithType: SectionIdentifiers.SectionOpen
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionOpen*
+  name: SectionOpen
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html#pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers_SectionOpen_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionOpen
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.SectionOpen
+  nameWithType: SectionIdentifiers.SectionOpen
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.ToString
+  name: ToString()
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html#pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers_ToString
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.ToString
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.ToString()
+  nameWithType: SectionIdentifiers.ToString()
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.ToString*
+  name: ToString
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html#pbuddy_CodeGenerationUtility_EditorScripts_SectionIdentifiers_ToString_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.ToString
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.ToString
+  nameWithType: SectionIdentifiers.ToString
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace
+  name: TemplateToReplace
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html
+  commentId: T:pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace
+  nameWithType: TemplateToReplace
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.#ctor(System.String,System.String)
+  name: TemplateToReplace(String, String)
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html#pbuddy_CodeGenerationUtility_EditorScripts_TemplateToReplace__ctor_System_String_System_String_
+  commentId: M:pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.#ctor(System.String,System.String)
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.TemplateToReplace(System.String, System.String)
+  nameWithType: TemplateToReplace.TemplateToReplace(String, String)
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.#ctor*
+  name: TemplateToReplace
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html#pbuddy_CodeGenerationUtility_EditorScripts_TemplateToReplace__ctor_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.#ctor
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.TemplateToReplace
+  nameWithType: TemplateToReplace.TemplateToReplace
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.ReplacementString
+  name: ReplacementString
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html#pbuddy_CodeGenerationUtility_EditorScripts_TemplateToReplace_ReplacementString
+  commentId: P:pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.ReplacementString
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.ReplacementString
+  nameWithType: TemplateToReplace.ReplacementString
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.ReplacementString*
+  name: ReplacementString
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html#pbuddy_CodeGenerationUtility_EditorScripts_TemplateToReplace_ReplacementString_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.ReplacementString
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.ReplacementString
+  nameWithType: TemplateToReplace.ReplacementString
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.TemplateString
+  name: TemplateString
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html#pbuddy_CodeGenerationUtility_EditorScripts_TemplateToReplace_TemplateString
+  commentId: P:pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.TemplateString
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.TemplateString
+  nameWithType: TemplateToReplace.TemplateString
+- uid: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.TemplateString*
+  name: TemplateString
+  href: api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html#pbuddy_CodeGenerationUtility_EditorScripts_TemplateToReplace_TemplateString_
+  commentId: Overload:pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.TemplateString
+  isSpec: "True"
+  fullName: pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.TemplateString
+  nameWithType: TemplateToReplace.TemplateString
