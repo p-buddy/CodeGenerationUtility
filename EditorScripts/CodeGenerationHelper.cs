@@ -3,23 +3,40 @@ using System.Collections.Generic;
 
 namespace pbuddy.CodeGenerationUtility.EditorScripts
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class CodeGenerationHelper
     {
-        public static void ReplaceTemplatedString(this List<string> lines, string templateString, string generatedString)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public static string[] GetStringArrayFromTemplate(string template)
         {
-            for (var index = 0; index < lines.Count; index++)
-            {
-                lines[index] = lines[index].Replace(templateString, generatedString);
-            }
+            return template.Split(new[]
+                           {
+                               Environment.NewLine
+                           },
+                           StringSplitOptions.RemoveEmptyEntries);
         }
 
-        public static List<string> GetSection(this List<string> lines, in Section section, bool excludeSectionGuards = true)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <param name="sectionIdentifiers"></param>
+        /// <param name="excludeSectionGuards"></param>
+        /// <returns></returns>
+        public static List<string> GetSection(this List<string> lines,
+                                              in SectionIdentifiers sectionIdentifiers,
+                                              bool excludeSectionGuards = true)
         {
             List<string> sectionLines = new List<string>(lines.Count);
             bool inSection = false;
             foreach (string line in lines)
             {
-                if (line.Contains(section.SectionClose))
+                if (line.Contains(sectionIdentifiers.SectionClose))
                 {
                     inSection = false;
                     if (!excludeSectionGuards)
@@ -33,7 +50,7 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
                     sectionLines.Add(line);
                 }
                 
-                if (line.Contains(section.SectionOpen))
+                if (line.Contains(sectionIdentifiers.SectionOpen))
                 {
                     inSection = true;
                     if (!excludeSectionGuards)
@@ -46,19 +63,24 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
             return sectionLines;
         }
 
-        public static void RemoveSection(this List<string> lines, in Section section)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <param name="sectionIdentifiers"></param>
+        public static void RemoveSection(this List<string> lines, in SectionIdentifiers sectionIdentifiers)
         {
             bool insideSectionToDelete = false;
             for (var index = lines.Count - 1; index >= 0; index--)
             {
                 if (insideSectionToDelete)
                 {
-                    insideSectionToDelete = !lines[index].Contains(section.SectionOpen);
+                    insideSectionToDelete = !lines[index].Contains(sectionIdentifiers.SectionOpen);
                     lines.RemoveAt(index);
                     continue;
                 }
 
-                if (lines[index].Contains(section.SectionClose))
+                if (lines[index].Contains(sectionIdentifiers.SectionClose))
                 {
                     lines.RemoveAt(index);
                     insideSectionToDelete = true;
@@ -66,33 +88,50 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
             }
         }
         
-        public static void RemoveSectionIdentifiers(this List<string> lines, in Section section)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <param name="sectionIdentifiers"></param>
+        public static void RemoveSectionIdentifiers(this List<string> lines, in SectionIdentifiers sectionIdentifiers)
         {
             for (var index = lines.Count - 1; index >= 0; index--)
             {
-                if (lines[index].Contains(section.SectionClose) || lines[index].Contains(section.SectionOpen))
+                if (lines[index].Contains(sectionIdentifiers.SectionClose) || lines[index].Contains(sectionIdentifiers.SectionOpen))
                 {
                     lines.RemoveAt(index);
                 }
             }
         }
         
-        public static void ReplaceSectionIdentifiers(this List<string> lines, in Section section, string replacementString)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <param name="sectionIdentifiers"></param>
+        /// <param name="replacementString"></param>
+        public static void ReplaceSectionIdentifiers(this List<string> lines, in SectionIdentifiers sectionIdentifiers, string replacementString)
         {
             for (var index = lines.Count - 1; index >= 0; index--)
             {
-                if (lines[index].Contains(section.SectionClose) || lines[index].Contains(section.SectionOpen))
+                if (lines[index].Contains(sectionIdentifiers.SectionClose) || lines[index].Contains(sectionIdentifiers.SectionOpen))
                 {
                     lines[index] = replacementString;
                 }
             }
         }
         
-        public static void AddToBeginningOfSection(this List<string> lines, in Section section, params string[] toAdd)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <param name="sectionIdentifiers"></param>
+        /// <param name="toAdd"></param>
+        public static void AddToBeginningOfSection(this List<string> lines, in SectionIdentifiers sectionIdentifiers, params string[] toAdd)
         {
             for (var index = 0; index < lines.Count; index++)
             {
-                if (lines[index].Contains(section.SectionOpen))
+                if (lines[index].Contains(sectionIdentifiers.SectionOpen))
                 {
                     for (int toAddIndex = toAdd.Length - 1; toAddIndex >= 0; toAddIndex--)
                     {
@@ -104,7 +143,13 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
             }
         }
 
-        public static void AddToEndOfSection(this List<string> lines, in Section section, params string[] toAdd)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <param name="sectionIdentifiers"></param>
+        /// <param name="toAdd"></param>
+        public static void AddToEndOfSection(this List<string> lines, in SectionIdentifiers sectionIdentifiers, params string[] toAdd)
         {
             bool insideSection = false;
             string spacing = null;
@@ -113,7 +158,7 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
             {
                 if (insideSection)
                 {
-                    if (lines[index].Contains(section.SectionClose))
+                    if (lines[index].Contains(sectionIdentifiers.SectionClose))
                     {
                         for (int toAddIndex = toAdd.Length - 1; toAddIndex >= 0; toAddIndex--)
                         {
@@ -125,14 +170,19 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
                     }
                 }
                 
-                if (lines[index].Contains(section.SectionOpen))
+                if (lines[index].Contains(sectionIdentifiers.SectionOpen))
                 {
                     spacing = GetLeadingWhitespace(lines[index]);
                     insideSection = true;
                 }
             }
         }
-
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <param name="replacements"></param>
         public static void ReplaceTemplates(this List<string> lines, params TemplateToReplace[] replacements)
         {
             for (var index = 0; index < lines.Count; index++)
@@ -144,6 +194,10 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
             }
         }
         
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="lines"></param>
         public static void RemoveMultipleEmptyLines(this List<string> lines)
         {
             bool previousWasEmpty = false;
@@ -158,6 +212,11 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
             }
         }
         
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
         public static string GetLeadingWhitespace(string str)
         {
             return str.Replace(str.TrimStart(), "");
