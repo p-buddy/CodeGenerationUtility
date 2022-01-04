@@ -11,8 +11,10 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
         /// <summary>
         /// 
         /// </summary>
+        /// <example>
+        /// </example>
         /// <returns></returns>
-        public static string[] GetStringArrayFromTemplate(string template)
+        public static string[] GetLinesArrayFromTemplate(string template)
         {
             return template.Split(new[]
                            {
@@ -28,6 +30,7 @@ namespace pbuddy.CodeGenerationUtility.EditorScripts
         /// <param name="sectionIdentifiers"></param>
         /// <param name="excludeSectionGuards"></param>
         /// <returns></returns>
+        /// <include file='../EditModeTests/TestsAsDocumentation.xml' path='CodeGenerationHelper/GetSection/example'/>
         public static List<string> GetSection(this List<string> lines,
                                               in SectionIdentifiers sectionIdentifiers,
                                               bool excludeSectionGuards = true)
