@@ -14,8 +14,8 @@
             "dest": "api"
         }
     ],
-    "template":["default","templates/discordfx"],
     "build": {
+        "template":["default","templates/discordfx"],
         "globalMetadata": {
             "_appTitle": "Code Generation Utility documentation",
             "_appFooter": "Code Generation Utility documentation",

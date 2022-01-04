@@ -23,7 +23,43 @@ namespace pbuddy.CodeGenerationUtility.EditModeTests
                                                                            .GetLinesArrayFromTemplate(Template)
                                                                            .ToList()
                                                                            .AsReadOnly();
-        
+
+        /// <summary>
+        /// <list type="table">
+        ///     <item>
+        ///         <term>Given</term>
+        ///         <description>
+        ///             <list type="bullet">
+        ///                 <item>hi</item>
+        ///                 <item>hello</item>
+        ///             </list>
+        ///         </description>
+        ///     </item>
+        ///     <item>
+        ///         <term>When</term>
+        ///         <description>...</description>
+        ///     </item>
+        ///     <item>
+        ///         <term>Then</term>
+        ///         <description>...</description>
+        ///     </item>
+        /// </list>
+        /// <list type="bullet">
+        /// <listheader>
+        ///     <term>Documents / demonstrates</term>
+        /// </listheader>
+        /// <item>
+        ///     <see cref="NonspecificNamedGPUFunctionArguments"/>
+        /// </item>
+        /// <item>
+        ///     <see cref="IGPUFunctionArgumentsExtensions.SendToCgFunctionAndGetOutput"/>
+        /// </item>
+        /// <item>
+        ///     <see cref="DebugAndTestGPUCodeUtility.GenerateCgFile"/>
+        ///     
+        /// </item>
+        /// </list>
+        /// </summary>
         [Test]
         public void GetLinesArrayTest()
         {
