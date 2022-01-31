@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html",
-          "hash": "ziOSzwQ9Bw8vxcen6q5/HkeSaPylAIuh4tooHQcNqKo="
+          "hash": "LWjb/DpCZq/Rxoy8vEauqVxCgHprnBkXRoawhETcefk="
         }
       },
       "is_incremental": false,
@@ -40,19 +40,22 @@
       "output": {
         ".html": {
           "relative_path": "api/pbuddy.CodeGenerationUtility.EditModeTests.html",
-          "hash": "fI0Jx2VP7SerlKU3YWVKNMkpfd2I2nkuubHNDIYumLw="
+          "hash": "20WSQKJ+FewU6xkn7tPABxJuST/rqXm7+NINpv5eIiI="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidCodeSnippet"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.yml",
       "output": {
         ".html": {
           "relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.CodeGenerationHelper.html",
-          "hash": "1koT06zfgj+TI5fhPuevPKZtpVC8sKfI11bBGiwI5ao="
+          "hash": "kGJZMe4YK+ptV0iIKJTTS3V+iX5TE6FpVIsx54qGh8I="
         }
       },
       "is_incremental": false,
@@ -64,7 +67,7 @@
       "output": {
         ".html": {
           "relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.SectionIdentifiers.html",
-          "hash": "sMVgD/7Jzr+mjrVxmoZ2ed61g1ylIN73Xo4cNi5DaB8="
+          "hash": "AavFDN9MIWz9WlJ5HfDC2X4pAQYOrg7Zcx7XxnmOonE="
         }
       },
       "is_incremental": false,
@@ -76,7 +79,7 @@
       "output": {
         ".html": {
           "relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.TemplateToReplace.html",
-          "hash": "bROQ23Pva04ATBNcoW/QrOiIgMukM1izXx1LqR3Heg8="
+          "hash": "vPOV3gkOOVanmF+qr59qzx4IIhqrOI9tZpaQObds4wY="
         }
       },
       "is_incremental": false,
@@ -88,7 +91,7 @@
       "output": {
         ".html": {
           "relative_path": "api/pbuddy.CodeGenerationUtility.EditorScripts.html",
-          "hash": "gPbqPHNj28ndYlXWdD/qPbISE5h/z49U7aiiff1XUlM="
+          "hash": "sQX/F5ecykLbr4HpB4ngdBYK/4iNSp224vmHpQaH3Vk="
         }
       },
       "is_incremental": false,
@@ -112,7 +115,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "henlhsVuvvS6tz3C70DnsfskSoRczDll83FkaaAdzg4="
+          "hash": "fWMd+Haj3Y77LqBj5A6621UrchnYWUJL9GuwKlrj/EU="
         }
       },
       "is_incremental": false,
