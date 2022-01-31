@@ -1,13 +1,16 @@
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Reflection;
 using NUnit.Framework;
 
 using pbuddy.CodeGenerationUtility.EditorScripts;
+using pbuddy.TestsAsDocumentationUtility.EditorScripts;
 
 namespace pbuddy.CodeGenerationUtility.EditModeTests
 {
-    public class CodeGenerationHelperTests
+    public class CodeGenerationHelperTests : TestsAsDocumentationBase
     {
         private static readonly SectionIdentifiers SectionA = new SectionIdentifiers("openA", "closeA");
         private static readonly SectionIdentifiers SectionB = new SectionIdentifiers("openB", "closeB");
@@ -18,61 +21,35 @@ namespace pbuddy.CodeGenerationUtility.EditModeTests
 {SectionB}
 {SectionC}
 ";
-
+        
         private static readonly ReadOnlyCollection<string> TemplateLines = CodeGenerationHelper
                                                                            .GetLinesArrayFromTemplate(Template)
                                                                            .ToList()
                                                                            .AsReadOnly();
 
-        /// <summary>
-        /// <list type="table">
-        ///     <item>
-        ///         <term>Given</term>
-        ///         <description>
-        ///             <list type="bullet">
-        ///                 <item>hi</item>
-        ///                 <item>hello</item>
-        ///             </list>
-        ///         </description>
-        ///     </item>
-        ///     <item>
-        ///         <term>When</term>
-        ///         <description>...</description>
-        ///     </item>
-        ///     <item>
-        ///         <term>Then</term>
-        ///         <description>...</description>
-        ///     </item>
-        /// </list>
-        /// <list type="bullet">
-        /// <listheader>
-        ///     <term>Documents / demonstrates</term>
-        /// </listheader>
-        /// <item>
-        ///     <see cref="NonspecificNamedGPUFunctionArguments"/>
-        /// </item>
-        /// <item>
-        ///     <see cref="IGPUFunctionArgumentsExtensions.SendToCgFunctionAndGetOutput"/>
-        /// </item>
-        /// <item>
-        ///     <see cref="DebugAndTestGPUCodeUtility.GenerateCgFile"/>
-        ///     
-        /// </item>
-        /// </list>
-        /// </summary>
         [Test]
+        [Demonstrates(typeof(CodeGenerationHelper), nameof(CodeGenerationHelper.GetLinesArrayFromTemplate))]
         public void GetLinesArrayTest()
         {
-            string[] lines = CodeGenerationHelper.GetLinesArrayFromTemplate(Template);
+            // Given
+            string line0 = "Hello,";
+            string line1 = "This is an example.";
+            string line2 = "goodbye";
             
-            Assert.AreEqual(lines[0], SectionA.SectionOpen);
-            Assert.AreEqual(lines[1], SectionA.SectionClose);
+            string template = @$"
+{line0}
 
-            Assert.AreEqual(lines[2], SectionB.SectionOpen);
-            Assert.AreEqual(lines[3], SectionB.SectionClose);
+{line1}
+
+{line2}";
             
-            Assert.AreEqual(lines[4], SectionC.SectionOpen);
-            Assert.AreEqual(lines[5], SectionC.SectionClose);
+            // When
+            string[] lines = CodeGenerationHelper.GetLinesArrayFromTemplate(template);
+            
+            // Then
+            Assert.AreEqual(lines[0], line0);
+            Assert.AreEqual(lines[1], line1);
+            Assert.AreEqual(lines[2], line2);
         }
         
         [Test]
@@ -99,5 +76,7 @@ namespace pbuddy.CodeGenerationUtility.EditModeTests
             Assert.AreEqual(nonEmptySectionLines.Count, 1);
             Assert.AreEqual(nonEmptySectionLines[0], dummyText);
         }
+
+        public override void CreateDocumentation() => InternalCreateDocumentation();
     }
 }

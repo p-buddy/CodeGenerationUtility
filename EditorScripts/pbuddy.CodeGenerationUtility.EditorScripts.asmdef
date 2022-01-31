@@ -1,7 +1,9 @@
 {
     "name": "pbuddy.CodeGenerationUtility.EditorScripts",
     "rootNamespace": "pbuddy.CodeGenerationUtility.EditorScripts",
-    "references": [],
+    "references": [
+        "GUID:24cefa8409c614b598fa09650116eff6"
+    ],
     "includePlatforms": [
         "Editor"
     ],
