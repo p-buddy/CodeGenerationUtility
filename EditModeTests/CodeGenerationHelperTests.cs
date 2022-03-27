@@ -10,7 +10,7 @@ using pbuddy.TestsAsDocumentationUtility.EditorScripts;
 
 namespace pbuddy.CodeGenerationUtility.EditModeTests
 {
-    public class CodeGenerationHelperTests : TestsAsDocumentationBase
+    public class CodeGenerationHelperTests /*: TestsAsDocumentationBase*/
     {
         private static readonly SectionIdentifiers SectionA = new SectionIdentifiers("openA", "closeA");
         private static readonly SectionIdentifiers SectionB = new SectionIdentifiers("openB", "closeB");
@@ -76,7 +76,5 @@ namespace pbuddy.CodeGenerationUtility.EditModeTests
             Assert.AreEqual(nonEmptySectionLines.Count, 1);
             Assert.AreEqual(nonEmptySectionLines[0], dummyText);
         }
-
-        public override void CreateDocumentation() => InternalCreateDocumentation();
     }
 }
