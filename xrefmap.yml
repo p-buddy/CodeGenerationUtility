@@ -13,19 +13,6 @@ references:
   commentId: T:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests
   fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests
   nameWithType: CodeGenerationHelperTests
-- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.CreateDocumentation
-  name: CreateDocumentation()
-  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_CreateDocumentation
-  commentId: M:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.CreateDocumentation
-  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.CreateDocumentation()
-  nameWithType: CodeGenerationHelperTests.CreateDocumentation()
-- uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.CreateDocumentation*
-  name: CreateDocumentation
-  href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_CreateDocumentation_
-  commentId: Overload:pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.CreateDocumentation
-  isSpec: "True"
-  fullName: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.CreateDocumentation
-  nameWithType: CodeGenerationHelperTests.CreateDocumentation
 - uid: pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.GetLinesArrayTest
   name: GetLinesArrayTest()
   href: api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html#pbuddy_CodeGenerationUtility_EditModeTests_CodeGenerationHelperTests_GetLinesArrayTest

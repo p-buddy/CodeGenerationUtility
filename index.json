@@ -2,7 +2,7 @@
   "api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html": {
     "href": "api/pbuddy.CodeGenerationUtility.EditModeTests.CodeGenerationHelperTests.html",
     "title": "Class CodeGenerationHelperTests | Code Generation Utility documentation",
-    "keywords": "Class CodeGenerationHelperTests Inheritance Object CodeGenerationHelperTests Namespace : pbuddy.CodeGenerationUtility.EditModeTests Assembly : cs.temp.dll.dll Syntax public class CodeGenerationHelperTests : TestsAsDocumentationBase Methods CreateDocumentation() Declaration public override void CreateDocumentation() GetLinesArrayTest() Declaration public void GetLinesArrayTest() GetSectionExcludingGuardsTest() Declaration public void GetSectionExcludingGuardsTest() GetSectionIncludingGuardsTest() Declaration public void GetSectionIncludingGuardsTest()"
+    "keywords": "Class CodeGenerationHelperTests Inheritance Object CodeGenerationHelperTests Inherited Members Object.ToString() Object.Equals(Object) Object.Equals(Object, Object) Object.ReferenceEquals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Namespace : pbuddy.CodeGenerationUtility.EditModeTests Assembly : cs.temp.dll.dll Syntax public class CodeGenerationHelperTests Methods GetLinesArrayTest() Declaration public void GetLinesArrayTest() GetSectionExcludingGuardsTest() Declaration public void GetSectionExcludingGuardsTest() GetSectionIncludingGuardsTest() Declaration public void GetSectionIncludingGuardsTest()"
   },
   "api/pbuddy.CodeGenerationUtility.EditModeTests.html": {
     "href": "api/pbuddy.CodeGenerationUtility.EditModeTests.html",
